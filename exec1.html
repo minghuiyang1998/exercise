@@ -68,20 +68,29 @@
         #user-blocks {
             font-size: 14px;
             line-height: 2;
-            padding: 10px 40px 10px 15px;
+            padding: 10px 0 10px 0;
             border-bottom: 1px solid #e1e4e8;
+        }
+
+        .dropdown-item {
+            padding: 0 40px 0 15px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #0366d6;
+            color: #fff;
         }
 
         #operations {
             font-size: 14px;
             line-height: 2;
-            padding: 10px 40px 10px 15px;
+            padding: 10px 0 10px 0;
         }
 
         #add-blocks {
             font-size: 14px;
             line-height: 2;
-            padding: 10px 40px 10px 15px;
+            padding: 10px 0 10px 0;
             border-bottom: 1px solid #e1e4e8;
         }
 
@@ -504,10 +513,10 @@
         <div class="arrow"></div>
         <div class="dropdown-main">
             <div id="add-blocks">
-                <div>New profile</div>
-                <div>New repositories</div>
-                <div>New stars</div>
-                <div>New gists</div>
+                <div class="dropdown-item">New profile</div>
+                <div class="dropdown-item">New repositories</div>
+                <div class="dropdown-item">New stars</div>
+                <div class="dropdown-item">New gists</div>
             </div>
         </div>
     </div>
@@ -519,15 +528,15 @@
                 <div style="font-weight: 600;">mignhuiyang1998</div>
             </div>
             <div id="user-blocks">
-                <div>Your profile</div>
-                <div>Your repositories</div>
-                <div>Your stars</div>
-                <div>Your gists</div>
+                <div class="dropdown-item">Your profile</div>
+                <div class="dropdown-item">Your repositories</div>
+                <div class="dropdown-item">Your stars</div>
+                <div class="dropdown-item">Your gists</div>
             </div>
             <div id="operations">
-                <div>Help</div>
-                <div>Settings</div>
-                <div>Sign out</div>
+                <div class="dropdown-item">Help</div>
+                <div class="dropdown-item">Settings</div>
+                <div class="dropdown-item">Sign out</div>
             </div>
         </div>
     </div>
