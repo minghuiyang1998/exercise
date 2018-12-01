@@ -641,7 +641,6 @@
                 $('aside').removeClass('fixed')
                 $('#filler').hide();
             }
-            return isFixed;
         }
 
         function _detectWidth() {
@@ -651,17 +650,14 @@
             } else {
                 $('aside').removeClass('static')
             }
-            if (windowWidth >= 1000) {
+            if (windowWidth >= 1012) {
+                $('#disc-repo').show()
                 $('#header-left-group').show();
                 $('#header-right-group').show();
             } else {
+                $('#disc-repo').hide()
                 $('#header-left-group').hide();
                 $('#header-right-group').hide();
-            }
-            if (windowWidth < 1012) {
-                $('#disc-repo').hide()
-            } else {
-                $('#disc-repo').show()
             }
         }
 
